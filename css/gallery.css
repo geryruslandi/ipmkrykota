@@ -1,0 +1,36 @@
+.gallery{
+	background-image: url("../images/gallery_bg.png");
+	background-repeat:no-repeat;
+	background-size:910px 320px;
+	height:320px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.gallery ul li{
+	list-style-type: none;
+	float:left;
+	margin-left:10px;
+}
+
+.gallery ul li img{
+	width:166px;
+	height:200px
+	
+}
+
+.image {
+	border : 2px solid #ccc;
+	background-image: url("../images/photo_frame.png");
+}
+
+.image:hover {
+	border : 2px solid #777;
+}
+
+.gallery ul li p{
+	text-align:center;
+	color : white;
+	margin-bottom:4px;
+	margin-top: -3px;
+}
